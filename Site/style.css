@@ -8,8 +8,37 @@
     padding: 0;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     background-color: #121212;
+}
+
+#menu{
+    list-style: none;
+    padding: 0;
+    background-color: #636363;
+    
+}
+
+#menu li{
+    display: inline;
+    max-width: 500px;
+    
+}
+
+#menu li a{
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+}
+
+#menu li a:hover{
+    background-color: #3b3b3b;
+    transition: all 0.4s;
 }
 
 .container{
@@ -42,7 +71,7 @@ h1#nome{
     font-size: 20px;
 }
 
-#albuns{
+.albuns{
     display: flex;
     flex-wrap: wrap;
     padding-top: 1%;
@@ -206,4 +235,14 @@ ul{
 #shows{
     color: white;
     text-decoration: underline;
+}
+
+.perfis{
+    display: flex;
+    justify-content: left;
+    padding: 1%;
+}
+
+.perfil{
+    padding-left: 20px;
 }

@@ -12,6 +12,32 @@ body{
     background-color: #121212;
 }
 
+#menu{
+    list-style: none;
+    padding: 0;
+    background-color: #636363;
+    
+}
+
+#menu li{
+    display: inline;
+    max-width: 500px;
+    
+}
+
+#menu li a{
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    font-family: 'Gotham';
+}
+
+#menu li a:hover{
+    background-color: #3b3b3b;
+    transition: all 0.4s;
+}
+
 .container{
     display: flex;
     align-items: center;

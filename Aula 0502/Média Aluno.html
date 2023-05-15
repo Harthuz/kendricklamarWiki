@@ -1,0 +1,56 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Média Do Aluno</title>
+        <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/4720/4720451.png" type="image/x-icon">
+        <link rel="stylesheet" href="style.css">
+    
+        <script>
+            function calcularMedia(no1,no2,no3,no4,nome) {
+                var n1, n2, n3, n4, nome;
+                n1=parseFloat(no1.value);
+                n2=parseFloat(no2.value);
+                n3=parseFloat(no3.value);
+                n4=parseFloat(no4.value);
+                nome=String(nome.value);
+    
+                var media = (n1 + n2 + n3 + n4) / 4;
+    
+                alert(`A média do(a) aluno(a) ${nome} foi de ${media}`);
+            }
+        </script>
+
+    </head>
+    <body>
+        <center>
+                <form>
+                    <h1>Média Do Aluno</h1>
+                    <table>
+                        <p>Preencha as informaçõe a baixo</p>
+                        <tr>
+                            <td align="right">Nome do(a) aluno(a):</td> 
+                            <td><input type="text" name="nome"></td>   
+                        </tr>
+                        <tr>
+                            <td align="right">Nota do 1° bimestre:</td> 
+                            <td><input type="text" name="no1"></td>
+                        </tr>
+                        <tr>
+                            <td align="right">Nota do 2° bimestre:</td> 
+                            <td><input type="text" name="no2"></td>
+                        </tr>
+                        <tr>
+                            <td align="right">Nota do 3° bimestre:</td> 
+                            <td><input type="text" name="no3"></td>
+                        </tr>
+                        <tr>
+                            <td align="right">Nota do 4° bimestre:</td> 
+                            <td><input type="text" name="no4"></td>
+                        </tr> <tr></tr> <tr></tr><tr></tr> <tr></tr><tr></tr> <tr></tr><tr></tr> <tr></tr><tr></tr> <tr></tr>
+                    </table> 
+                    <input id="botao" type="button" value="Calcular a Média" onclick="calcularMedia(no1,no2,no3,no4,nome)">
+                </form>
+        </center>
+    </body>
+</html>
+    

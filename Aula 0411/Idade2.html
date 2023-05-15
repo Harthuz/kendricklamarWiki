@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/4753/4753175.png" type="image/x-icon">
+        <title>Calcule Sua Idade</title>
+        
+        <script language="javascript">
+            function calcularidade(num1,num2){
+                var idade, n1, n2;
+                anoatual=parseInt(num1.value);
+                anonacsimento=parseInt(num2.value);
+                idade=anoatual-anonacsimento;
+                alert(`A pessoa tem ${idade} anos de idade.`);
+            }
+        </script>
+    </head>
+    <body>
+        <center>
+            <font face="arial">
+                <h1>Calcule Sua Idade</h1>
+                <form>
+                    <table>
+                        <td align="right">Ano Atual:</td> <td><input type="text" name="num1"></td>
+                        <tr></tr>
+                        <td align="right">Ano de Nascimento:</td> <td><input type="text" name="num2"></td>
+                        <tr></tr>
+                        <td align="right"><input type="reset" name="limpar" value="Limpar"></td> <td><input type="submit" name="calcular" value="Calcular" onclick="calcularidade(num1,num2)"></td>
+                    </table>
+                </form>
+            </font>
+        </center>
+    </body>
+</html>
