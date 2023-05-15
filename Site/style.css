@@ -237,16 +237,41 @@ ul{
     text-decoration: underline;
 }
 
+.show_case{
+    padding-bottom: 40px;
+}
+
 .perfis{
     display: flex;
-    justify-content: left;
-    padding: 1%;
+    justify-content: space-around;
+    
+    background-color: #2a2a2a;
 }
 
 .perfil{
-    padding-left: 20px;
+    display: flex;
 }
 
 #icons{
-    width: 50px;
+    background-color: #2a2a2a;
+    padding: 10px;
+    padding-right: 100px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-family: 'Gotham';
+    font-size: 12px;
+}
+
+#icons h2{
+    padding-left: 10px;
+}
+
+#icons a{
+    color: white;
+}
+
+#icons img{
+    width: 30px;
 }
