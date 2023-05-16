@@ -148,12 +148,12 @@ ul{
 .premios{
     display: flex;
     flex-wrap: wrap;
+    padding-top: 1%;
     justify-content: space-around;
 }
 
 .premio{
     text-align: center;
-    margin: 10px;
 }
 
 .premiacao{
