@@ -148,8 +148,7 @@ ul{
 .premios{
     display: flex;
     flex-wrap: wrap;
-    justify-content: left;
-    padding-left: 5px;
+    justify-content: space-around;
 }
 
 .premio{
@@ -157,7 +156,7 @@ ul{
     margin: 10px;
 }
 
-.grammy{
+.premiacao{
     background-color: #181818;
     width: 200px;
     height: 0;
@@ -169,12 +168,12 @@ ul{
     line-height: 1.4;
 }
 
-.grammy:hover{
+.premiacao:hover{
     background-color: #282828;
     transform: translateY(-3px);
 }
 
-.grammy h1{
+.premiacao h1{
     padding-top: 8px;
     max-height: 170px;
     color: white;
@@ -182,14 +181,14 @@ ul{
     font-size: 20px;
 }
 
-.grammy h3{
+.premiacao h3{
     padding-top: 8px;
     color: #939393;
     font-family: 'Gotham';
     font-size: medium;
 }
 
-.grammy img{
+.premiacao img{
     height: 170px;
     border-radius: 20px;
 }
@@ -244,24 +243,24 @@ ul{
 .perfis{
     display: flex;
     justify-content: space-around;
-    
     background-color: #2a2a2a;
 }
 
 .perfil{
     display: flex;
+    
 }
 
 #icons{
     background-color: #2a2a2a;
     padding: 10px;
-    padding-right: 100px;
     border-radius: 5px;
     display: flex;
     align-items: center;
     color: white;
     font-family: 'Gotham';
     font-size: 12px;
+    padding-right: 6vw;
 }
 
 #icons h2{
