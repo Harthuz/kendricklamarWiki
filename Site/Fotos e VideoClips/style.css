@@ -41,7 +41,7 @@ body{
 .container{
     display: flex;
     align-items: center;
-    justify-content: left;
+    justify-content: center;
     padding: 1%;
     background-color: #282828;
 }
@@ -85,4 +85,32 @@ h1#nome{
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+
+.videos{
+    width: max-content;
+    padding: 1%;
+}
+
+.videol1{
+    background-color: #181818;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    width: max-content;
+    transition: 0.1s;
+}
+
+.videol1:hover{
+    background-color: #333333;
+    transform:translateY(-5px)
+}
+
+.video h1{
+    color: white;
+    font-family: 'Gotham';
+    padding: 1%;
+}
+
+.iframe{
+    padding: 0 1% 1% 1%;
 }
