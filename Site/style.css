@@ -20,13 +20,11 @@ body{
     list-style: none;
     padding: 0;
     background-color: #636363;
-    
 }
 
 #menu li{
     display: inline;
-    max-width: 500px;
-    
+   
 }
 
 #menu li a{
@@ -38,7 +36,7 @@ body{
 
 #menu li a:hover{
     background-color: #3b3b3b;
-    transition: all 0.4s;
+    transition: all 0.2s;
 }
 
 .container{
@@ -85,13 +83,13 @@ h1#nome{
     height: 0;
     padding-bottom: 258px;
     border-radius: 20px;
-    transition: 0.4s;
+    transition: 0.1s;
     margin-bottom: 10px;
 }
 
 .album:hover{
     background-color: #282828;
-    transform: translateY(-3px);
+    transform: translateY(-5px);
 }
 
 .albuml2{
@@ -154,6 +152,7 @@ ul{
 
 .premio{
     text-align: center;
+    padding-bottom: 10px;
 }
 
 .premiacao{
@@ -162,15 +161,15 @@ ul{
     height: 0;
     padding-bottom: 280px;
     border-radius: 20px;
-    transition: 0.4s;
     padding-top: 10%;
     white-space: normal;
     line-height: 1.4;
+    transition: 0.1s;
 }
 
 .premiacao:hover{
     background-color: #282828;
-    transform: translateY(-3px);
+    transform: translateY(-5px);
 }
 
 .premiacao h1{

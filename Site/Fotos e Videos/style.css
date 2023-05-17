@@ -1,0 +1,88 @@
+@font-face{
+    font-family: 'Gotham';
+    src: url(../Fontes/GothamBook.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #121212;
+}
+
+#menu{
+    list-style: none;
+    padding: 0;
+    background-color: #636363;
+    
+}
+
+#menu li{
+    display: inline;
+    max-width: 500px;
+    
+}
+
+#menu li a{
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    font-family: 'Gotham';
+}
+
+#menu li a:hover{
+    background-color: #3b3b3b;
+    transition: all 0.4s;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding: 1%;
+    background-color: #282828;
+}
+
+img#perfil{
+    border-radius: 20px;
+    border-style: solid;
+    border-color: white;
+    height: 160px;
+}
+
+h1#nome{
+    font-family: 'Gotham';
+    font-size: 10vh;
+    padding-left: 10px;
+    color: white;
+}
+
+.galeria-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 2vw;
+    padding: 2%;
+}
+
+.imagens{
+    width: 220px;
+    height: 220px;
+    border: 10px solid #282828;
+    box-shadow: 5px 5px 5px #0006;
+    flex-grow: 1;
+    transition: 0.1s;
+}
+
+.imagens:hover{
+    transform: scale(1.07);
+}
+
+.imagens img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
