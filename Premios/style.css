@@ -1,0 +1,126 @@
+@font-face{
+    font-family: 'Gotham';
+    src: url(../Fontes/GothamBook.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #121212;
+}
+
+#menu{
+    list-style: none;
+    padding: 0;
+    background-color: #636363;
+    
+}
+
+#menu li{
+    display: inline;
+    max-width: 500px;
+    
+}
+
+#menu li a{
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    font-family: 'Gotham';
+}
+
+#menu li a:hover{
+    background-color: #3b3b3b;
+    transition: all 0.4s;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding: 1%;
+    background-color: #282828;
+}
+
+img#perfil{
+    border-radius: 20px;
+    border-style: solid;
+    border-color: white;
+    height: 160px;
+    width: 160px;
+    object-fit: cover;
+}
+
+h1#nome{
+    font-family: 'Gotham';
+    font-size: 10vh;
+    
+    color: white;
+}
+
+p{
+    color: white;
+    font-family: 'Gotham';
+    padding-left: 1%;
+    padding-top: 1%;
+    padding-right: 1%;
+    text-align: justify;
+    padding-bottom: 1%;
+    line-height: 1.4;
+}
+
+#titulo{
+    margin-left: 1%;
+    font-family: 'Gotham';
+    color: white;
+    padding-top: 1%;
+    font-size: 20px;
+}
+
+th{
+    margin-left: 1%;
+    font-family: 'Gotham';
+    color: white;
+    padding: 20px;
+    font-size: 17px;
+    background-color: #282828;
+}
+
+#listas{
+    margin-left: 30px;
+    font-family: 'Gotham';
+    color: white;
+    padding: 1% 0 1%;
+}
+
+table{
+    padding: 1% 1% 1% 1%;    
+}
+
+.premio{
+    padding: 8px;
+    color: white;
+    font-family: 'Gotham';
+    background-color: #282828;
+    white-space: pre-wrap;
+    width: 300px;
+    
+}
+
+.statusn{
+    padding: 8px;
+    color: white;
+    font-family: 'Gotham';
+    background-color: rgb(253, 59, 59);
+}
+
+.status{
+    padding: 8px;
+    color: white;
+    font-family: 'Gotham';
+    background-color: rgb(52, 139, 52);
+}
